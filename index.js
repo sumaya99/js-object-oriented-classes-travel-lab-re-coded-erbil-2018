@@ -33,3 +33,4 @@ class Route{
 }
 
 
+let route = new Route({horizontal: '1st Avenue', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
