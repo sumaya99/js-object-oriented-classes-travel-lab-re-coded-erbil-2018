@@ -16,7 +16,7 @@ class Route{
   this.endingLocation=endingLocation
   }
   blocksTravelled(){
-    const numofblocktravelled = Math.abs(parseInt(this.beginningLocation)-parseInt(this.endingLocation))
+    const numofblocktravelled = Math.abs(parseInt(this.beginningLocation.vertical)-parseInt(this.endingLocation.vertical))
     return 
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
   }
