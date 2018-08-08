@@ -11,7 +11,7 @@ let driver = new Driver("Alfie", "Aug 9, 1995")
 driver.yearsExperienceFromBeginningOf(2018);
 
 class Route{
-  constructor(name, startDate ){
+  constructor(beginningLocation, startDate ){
   this.name=name
   this.startDate=new Date(startDate)
   }
