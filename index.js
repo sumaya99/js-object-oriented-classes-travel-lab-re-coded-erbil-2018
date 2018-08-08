@@ -12,11 +12,13 @@ driver.yearsExperienceFromBeginningOf(2018);
 
 class Route{
   constructor(beginningLocation, endingLocation ){
-  this.beginningLocation=beginningLocation
-  this.endingLocation=endingLocation
+  this.beginningLocation=beginningLocation;
+  this.endingLocation=endingLocation;
   }
   blocksTravelled(){
-    const numofblocktravelled = Math.abs(parseInt(this.beginningLocation.vertical)-parseInt(this.endingLocation.vertical));
+    const numofblocktravelled = Math.abs(parseInt
+    (this.beginningLocation.vertical)-parseInt
+    (this.endingLocation.vertical));
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
         const Avenue = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal)-eastwest.indexOf(this.endingLocation.horizontal));
         return numofblocktravelled+Avenue;
