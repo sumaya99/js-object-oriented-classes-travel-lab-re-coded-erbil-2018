@@ -5,4 +5,4 @@ class Driver{
   Driver.prototype.startDate(){}
   Driver.prototype.yearsExperienceFromBeginningOf(){}
 }
-driver = new Driver("Alfie", "Aug 9, 1995")
+let driver = new Driver("Alfie", "Aug 9, 1995")
