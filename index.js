@@ -1,7 +1,7 @@
 class Driver{
-  constructor(name, thedayjoined ){
+  constructor(name, startDate ){
   this.name=name
-  this.thedayjoined=thedayjoined
+  this.startDate=new Date(startDate)
   }
   Driver.prototype.startDate(){}
   Driver.prototype.yearsExperienceFromBeginningOf(){}
