@@ -9,8 +9,8 @@ class Driver{
 let driver = new Driver("Alfie", "Aug 9, 1995")
 
 class Route extends Driver{
-  constructor(name, thedayjoined ){
-  this.name=name
+  constructor(beginningLocation, thedayjoined ){
+  this.beginningLocation=beginningLocation
   this.thedayjoined=thedayjoined
   }
   Driver.prototype.startDate(){}
