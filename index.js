@@ -2,7 +2,7 @@ class Driver{
   constructor(name, thedayjoined )
   this.name=name
   this.thedayjoined=thedayjoined
-  startDate
-  yearsExperienceFromBeginningOf
+  Driver.prototype.startDate(){}
+  Driver.prototype.yearsExperienceFromBeginningOf(){}
 }
 driver = new Driver("Alfie", "Aug 9, 1995")
