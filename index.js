@@ -20,8 +20,8 @@ class Route{
     (this.beginningLocation.vertical)-parseInt
     (this.endingLocation.vertical));
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
-        const Avenue = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal)-eastwest.indexOf(this.endingLocation.horizontal));
-        return numofblocktravelled+Avenue;
+        const avenue = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal)-eastwest.indexOf(this.endingLocation.horizontal));
+        return numofblocktravelled+avenue;
   }
   
   estimatedTime(min){
