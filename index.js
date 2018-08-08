@@ -13,7 +13,7 @@ class Route extends Driver{
   this.beginningLocation=beginningLocation
   this.endingLocation=endingLocation
   }
-  Driver.prototype.startDate(){}
+  Driver.prototype.blocksTravelled(){}
   Driver.prototype.yearsExperienceFromBeginningOf(){}
 }
 let driver = new Driver("Alfie", "Aug 9, 1995")
