@@ -21,9 +21,9 @@ class Route{
   }
   
   estimatedTime(min){
-    console.log
-    if(min === blocksTravelled){
-    return undefined;}
+    console.log(this.blocksTravelled())
+    if(min === undefined){
+    return this.blocksTravelled;}
     else{
       return
     }
