@@ -18,4 +18,9 @@ class Route{
   blocksTravelled(){
     return 
   }
+  
+  estimatedTime(){
+    
+    
+  }
 }
