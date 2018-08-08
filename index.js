@@ -12,6 +12,7 @@ driver.yearsExperienceFromBeginningOf(2018);
 
 class Route{
   constructor(beginningLocation, endingLocation ){
-  this.beginningLocation=name
-  this.endingLocation=new Date(startDate)
+  this.beginningLocation=beginningLocation
+  this.endingLocation=endingLocation
   }
+  
