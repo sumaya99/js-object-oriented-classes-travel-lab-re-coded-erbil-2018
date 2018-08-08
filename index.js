@@ -22,7 +22,7 @@ class Route{
     
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     
-        const avenue = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal)-eastwest.indexOf(this.endingLocation.horizontal));
+        const avenue = Math.abs(eastWest.indexOf(this.beginningLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal));
         return numofblocktravelled + avenue;
   }
   
